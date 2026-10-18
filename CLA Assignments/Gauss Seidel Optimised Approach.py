@@ -12,10 +12,10 @@ def gauss_seidel_3_iterations(a, b):
 
 
 a = np.array([[6, 1, 2],
-              [3, 5, 2],
-              [2, 1, 4]], dtype=np.float64)
+              [1, 4, 0.5],
+              [-1, 0.5, -4]], dtype=np.float64)
 
-b = np.array([9, 10, 7], dtype=np.float64)
+b = np.array([-2, 1, 0], dtype=np.float64)
 
 x = gauss_seidel_3_iterations(a, b)
 

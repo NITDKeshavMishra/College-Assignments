@@ -14,7 +14,7 @@ def is_diagonally_dominant(a):
 
 
 a = np.array([[6, 1, 2],
-              [3, 5, 2],
-              [2, 1, 4]], dtype=np.float64)
+              [1, 4, 0.5],
+              [-1, 0.5, -4]], dtype=np.float64)
 
 print(is_diagonally_dominant(a))
