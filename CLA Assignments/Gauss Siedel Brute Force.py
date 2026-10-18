@@ -8,6 +8,7 @@ b = np.array([9, 10, 7], dtype=np.float64)  # example RHS vector
 
 x = np.zeros(3, dtype=np.float64)
 
+#K = Number of iterations
 for k in range(3):
     for i in range(len(a)):
         p = b[i]
